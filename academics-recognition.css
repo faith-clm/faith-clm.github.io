@@ -1,0 +1,184 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.academic-recognition {
+    display: flex;
+    flex-direction: column;
+}
+
+.ac-bg {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 0;
+}
+
+.academic-recognition-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.academic-recognition-title {
+    background-color: none;
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 4vw;
+    font-family: "League Spartan";
+    font-weight: bold;
+    color: #e9bd19;
+}
+
+.first-row-pics {
+    display: flex;
+    flex-direction: row;
+}
+
+.fil-contest {
+    position: absolute;
+    width: 20vw;
+    margin: 2vw 0vw 0vw 3vw;
+    z-index: 1;
+}
+
+.fil-contest:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.honor1 {
+    position: absolute;
+    width: 20.8vw;
+    margin: 2vw 0vw 0vw 25vw;
+    z-index: 1;
+}
+.honor1:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.honor2 {
+    position: absolute;
+    width: 22.7vw;
+    margin: 2vw 0vw 0vw 47.8vw;
+    z-index: 1;
+}
+.honor2:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.honor3 {
+    position: absolute;
+    width: 21.8vw;
+    margin: 2vw 0vw 0vw 72.5vw;
+    z-index: 1;
+}
+.honor3:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.second-row-pics {
+    display: flex;
+    flex-direction: row;
+}
+
+.honor4 {
+    position: absolute;
+    width: 20vw;
+    margin: 20vw 0vw 0vw 2.5vw;
+    z-index: 1;
+}
+.honor4:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.honor5 {
+    position: absolute;
+    width: 22.5vw;
+    margin: 20vw 0vw 0vw 24.5vw;
+    z-index: 1;
+}
+.honor5:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.honor6 {
+    position: absolute;
+    width: 21.3vw;
+    margin: 20vw 0vw 0vw 49vw;
+    z-index: 1;
+}
+.honor6:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.honor7 {
+    position: absolute;
+    width: 23.5vw;
+    margin: 20vw 0vw 0vw 72.5vw;
+    z-index: 1;
+}
+.honor7:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.third-row-pics {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 65vw;
+}
+
+.honor8 {
+    position: absolute;
+    width: 20vw;
+    margin: 38vw 0vw 0vw 3vw;
+    z-index: 1;
+}
+.honor8:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.math-contest {
+    position: absolute;
+    width: 23vw;
+    margin: 38vw 0vw 0vw 25vw;
+    z-index: 1;
+}
+.math-contest:hover {
+    box-shadow: 0vw 0vw 2vw #e9bd19;
+}
+
+.go-back-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8vw;
+    font-family: 'League Spartan';
+    color: #e9bd19;
+    width: 13vw;
+    height: 5vmin;
+    font-weight: bold;
+    margin: 70vw 0vw 0vw 40vw;
+    background-color: transparent;
+    border-color: #e9bd19;
+    border-width: 0.12vw;
+    border-radius: 4vw;
+    text-decoration: none;
+    border-style: solid;
+    position: absolute;
+    transition: background-color 1s, color 1s;
+}
+
+.go-back-main:hover {
+    background-color: #e9bd19;
+    color: black;
+}
+
+.arrows {
+    margin-right: 1vw;
+    font-size: 1.5vw;
+}

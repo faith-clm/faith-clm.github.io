@@ -1,0 +1,91 @@
+.contact-bg {
+    margin-top: 9vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+}
+
+.webpage-contact-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.webpage-contact-title {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    z-index: 1;
+    font-size: 4vw;
+    margin: 16vw 0vw 0vw 13vw;
+    font-family: "League Spartan";
+    font-weight: bold;
+    color: #000000;
+}
+
+.other-pages-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    margin: 10vw 0vw 0vw 13vw;
+}
+
+.other-pages {
+    font-size: 2vw;
+    color: #000000;
+    font-family: "League Spartan";
+    font-weight: bold;
+    margin-top: 1.5vw;
+}
+
+.home-contact,
+.about-contact,
+.skills-contact {
+    font-size: 1.5vw;
+    color: #000000;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0.7vw;
+}
+
+.home-contact:active,
+.about-contact:active,
+.skills-contact:active {
+    font-size: 1.4vw;
+}
+
+.contact-me-content {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin: 10vw 0vw 0vw 13vw;
+}
+
+.contact-me {
+    font-size: 2vw;
+    color: #000000;
+    font-family: "League Spartan";
+    font-weight: bold;
+    margin-top: 1.5vw;
+}
+
+.facebook-link,
+.instagram-link,
+.email-link {
+    font-size: 1.5vw;
+    color: #000000;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0.7vw;
+}
+
+.facebook-link:active,
+.instagram-link:active,
+.email-link:active {
+    font-size: 1.4vw;
+} 
+

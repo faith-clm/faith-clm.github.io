@@ -1,0 +1,104 @@
+.skills-background-picture {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+}
+
+.webpage-skills-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5vw;
+}
+
+.webpage-skills-title {
+    background-color: none;
+    margin: 17.5vw 12vw 5vw 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 6vw;
+    font-family: "League Spartan";
+    font-weight: bold;
+    color: #e9bd19;
+    transform: rotate(90deg);
+}
+
+.skills-percent-pic {
+    color: #e9bd19;
+    background-color: antiquewhite;
+    width: 50vw;
+    margin: 8vw 2vw 2vw 9vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.new-window-button {
+    margin-top: 37vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    z-index: 1;
+    margin-top: 35vw;
+    margin-left: -15vw;
+}
+
+.academic-recognitions-button {
+    margin-right: 7vw;
+    text-decoration: none;
+
+}
+
+.academic-recognitions {
+    font-size: 1vw;
+    font-family: 'League Spartan';
+    color: #e9bd19;
+    background-color: transparent;
+    border-color: #e9bd19;
+    border-width: 0.2vw;
+    font-weight: bold;
+    border-radius: 4vw;
+    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+    border-style: solid;
+    transition: background-color 1s, color 1s;
+}
+.academic-recognitions:hover {
+    background-color: #e9bd19;
+    color: black;
+}
+.academic-recognitions:active {
+    font-size: 0.9vw;
+    border-width: 0.11vw;
+}
+
+.compiled-activities-button {
+    text-decoration: none;
+}
+
+.compiled-activities {
+    font-size: 1vw;
+    font-family: 'League Spartan';
+    color: #e9bd19;
+    background-color: transparent;
+    border-color: #e9bd19;
+    border-width: 0.2vw;
+    font-weight: bold;
+    border-radius: 4vw;
+    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+    border-style: solid;
+    transition: background-color 1s, color 1s;
+}
+.compiled-activities:hover {
+    background-color: #e9bd19;
+    color: black;
+}
+.compiled-activities:active {
+    font-size: 0.9vw;
+    border-width: 0.11vw;
+}

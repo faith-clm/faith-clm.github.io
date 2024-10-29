@@ -1,0 +1,145 @@
+.home-background-picture {
+    margin-top: 6vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    filter: brightness(80%);
+    z-index: 0;
+}
+
+.right-side-intro {
+    background-color: none;
+    padding-top: 22vmin;
+    margin: 0vw 20vw 25vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    z-index: 1;
+}
+
+.greet {
+    color: #EBEBDF;
+    font-family: 'League Spartan';
+    font-size: 7vw;
+    font-weight: 800;
+    margin-top: 1vw;
+    margin-bottom: 0;
+}
+
+.my-name {
+    color: #e9bd19;
+    font-family: 'League Spartan';
+    font-size: 7vw;
+    font-weight: 800;
+    margin-top: 0;
+    line-height: 7vw;
+    margin-bottom: 0vw;
+    transition: 0.5s;
+}
+.my-name:hover {
+    text-shadow: 0vw 0vw 5vw #e9bd19;
+}
+
+.design-line {
+    background-color: white;
+    width: 5vw;
+    height: 1.5vmin;
+    margin-bottom: 1.7vw;
+}
+
+.about-me {
+    font-size: 1.3vw;
+    font-family: 'Arial Narrow';
+    color: rgb(255, 255, 255);
+    line-height: 2vw;
+    width: 41vw;
+    margin-bottom: 1vw;
+    margin-left: 0.5vw;
+}
+
+.left-side-picture {
+    display: flex;
+    background-color: aliceblue;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    z-index: 1;
+    margin: 21vmin 0vw 0vw 62vw;
+}
+
+.me {
+    width: 25vw;
+    margin-top: 0;
+    box-shadow: 3vmin 3vmin 20px #000000;
+    transition: 1s;
+}
+.me:hover{
+    box-shadow: -3vmin -3vmin 40px #000000;
+}
+
+.more-button {
+    margin-top: 1.5vh;
+    margin-bottom: 2vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.view-projects,
+.more {
+    font-size: 1vw;
+    color: #e9bd19;
+    font-family: 'League Spartan';
+    width: 10.5vw;
+    height: 2.3vw;
+    font-weight: bold;
+    transition: 1s;
+    background-color: transparent;
+    border-color: #e9bd19;
+    border-width: 0.12vw;
+    border-radius: 4vw;
+    padding: 0.7vw 0vw 2vw 0vw;
+    border-style: solid;
+    transition: color 1s, background-color 1s;
+}
+.more {
+    margin-left: 1.2vw;
+}
+
+.more-text {
+    text-decoration: none;
+    font-size: 0.6vw;
+    color: #e9bd19;
+    transition: color 1s, background-color 1s;
+}
+.more-text:hover {
+    color: #000000;
+}
+
+.view-projects:hover,
+.more:hover {
+    color: #000000;
+    background-color: #e9bd19;
+    border: #e9bd19;
+}
+
+.view-projects:active,
+.more:active {
+    color: #000000;
+    background-color: #e9bd19;
+    border: none;
+    width: 10.4vw;
+    height: 2.2vw;
+}
+
+.arrows {
+    font-size: 1vw;
+    margin-left: 1vw;
+    font-weight: bolder;
+}

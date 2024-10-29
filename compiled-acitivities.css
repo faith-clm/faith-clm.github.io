@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.compiled-activities {
+    display: flex;
+    flex-direction: column;
+}
+
+.ca-bg {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 0;
+}
+
+.compiled-acitivities-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.compiled-acitivities-title {
+    background-color: none;
+    padding: 5vw 0vw 0vw 28vw;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 4vw;
+    font-family: "League Spartan";
+    font-weight: bold;
+    color: #e9bd19;
+    position: absolute;
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.activities-first-row {
+    margin-top: 16vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activities-second-row {
+    margin-top: 18vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activities-third-row {
+    margin-top: 18vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity3,
+.activity4,
+.activity5,
+.activity6-1,
+.activity6-2,
+.activity6-3,
+.activity7,
+.activity8-1,
+.activity8-2 {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-family: 'League Spartan';
+    color: #e9bd19;
+    font-size: 2vw;
+    height: 7vw; 
+    width: 19vw;
+    padding: 0vw 1vw 0vw 1vw;
+    text-align: center;
+    background-color: transparent;
+    border-color: #e9bd19;
+    border-style: solid;
+    border-width: 0.2vw;
+    border-radius: 2vw;
+    text-decoration: none;
+}
+
+.activity3 {
+    margin: 2vw 0vw 0vw 6vw;
+}
+
+.activity4 {
+    margin: 2vw 0vw 0vw 6vw;
+}
+
+.activity5 {
+    margin: 2vw 0vw 0vw 6vw;
+}
+
+.activity3:hover,
+.activity4:hover,
+.activity5:hover,
+.activity6-1:hover,
+.activity6-2:hover,
+.activity6-3:hover,
+.activity7:hover,
+.activity8-1:hover,
+.activity8-2:hover {
+    color: black;
+    background-color: #e9bd19;
+}
+
+.activity3:active,
+.activity4:active,
+.activity5:active,
+.activity6-1:active,
+.activity6-2:active,
+.activity6-3:active,
+.activity7:active,
+.activity8-1:active,
+.activity8-2:active {
+    height: 6.5vw; 
+    width: 18.5vw;
+}
+
+.go-back-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8vw;
+    font-family: 'League Spartan';
+    color: #e9bd19;
+    width: 13vw;
+    height: 5vmin;
+    font-weight: bold;
+    margin: 50vw 0vw 0vw 43vw;
+    background-color: transparent;
+    border-color: #e9bd19;
+    border-width: 0.12vw;
+    border-radius: 4vw;
+    text-decoration: none;
+    border-style: solid;
+    position: absolute;
+    transition: background-color 1s, color 1s;
+}
+
+.go-back-main:hover {
+    background-color: #e9bd19;
+    color: black;
+}
+
+.arrows {
+    margin-right: 1vw;
+    font-size: 1.5vw;
+}

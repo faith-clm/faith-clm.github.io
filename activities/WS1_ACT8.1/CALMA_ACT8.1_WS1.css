@@ -1,0 +1,41 @@
+.frame1{
+    background-color: rgb(37, 113, 128);
+}
+.frame1-text{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(242, 229, 191);
+}
+
+.frame2{
+    background-color: rgb(203, 96, 64);
+}
+.prog-lang{
+    color: rgb(242, 229, 191);
+    margin-left: 20px;
+}
+.main{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.menus{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.frame3{
+    background-color: rgb(242, 229, 191);
+}
+.frame3-text{
+    color: rgb(37, 113, 128);
+}
+
+.frame4{
+    background-color: rgb(37, 113, 128);
+}
+.frame4-text{
+    color: rgb(242, 229, 191);
+    text-align: center;
+}

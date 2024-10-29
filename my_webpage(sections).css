@@ -1,0 +1,29 @@
+.first-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.second-section {
+    margin-top: 55vw;
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-section {
+    padding-top: 5vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-section {
+    padding-top: 7vw;
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}

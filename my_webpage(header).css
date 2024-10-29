@@ -1,0 +1,99 @@
+.webpage-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9bd19;
+    width: 100vw;
+    height: 6vmax;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/*LEFT SIDE OF THE HEADER*/
+.clm-logo {
+    width: 8vmax;
+    margin-left: 6vw;
+    transition: 1s;
+}
+.clm-logo:hover {
+    width: 10vw;
+}
+
+/*MIDDLE SIDE OF THE HEADER*/
+.function-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.3vmin;
+    font-family: 'Arial';
+    padding-right: 9vmin;
+    margin-left: 3vw;
+    width: 45vw;
+}
+.home-button {
+    text-decoration: none;
+    color: black;
+}
+.home-button:hover {
+    font-size: 2.4vmin;
+    font-weight: bolder;
+    text-shadow: 5px 5px 15px #ffffff;
+}
+.home-button:active {
+    font-size: 2.3vmin;
+    font-weight: bolder;
+    text-shadow: 5px 5px 15px #ffffff;
+}
+
+.about-button {
+    margin-left: 4vmin;
+    margin-right: 4vmin;
+    text-decoration: none;
+    color: black;
+}
+.about-button:hover {
+    font-size: 2.4vmin;
+    font-weight: bolder;
+    text-shadow: 5px 5px 15px #ffffff;
+}
+.about-button:active {
+    font-size: 2.3vmin;
+    font-weight: bolder;
+    text-shadow: 5px 5px 15px #ffffff;
+}
+
+.skills-button {
+    margin-right: 4vmin;
+    text-decoration: none;
+    color: black;
+}
+.skills-button:hover {
+    font-size: 2.4vmin;
+    font-weight: bolder;
+    text-shadow: 5px 5px 15px #ffffff;
+}
+.skills-button:active {
+    font-size: 2.3vmin;
+    font-weight: bolder;
+    text-shadow: 5px 5px 15px #ffffff;
+}
+
+.contact-button {
+    text-decoration: none;
+    color: black;
+}
+.contact-button:hover {
+    font-size: 2.4vmin;
+    font-weight: bolder;
+    text-shadow: 5px 5px 15px #ffffff;
+}
+.contact-button:active {
+    font-size: 2.3vmin;
+    font-weight: bolder;
+    text-shadow: 5px 5px 15px #ffffff;
+}
